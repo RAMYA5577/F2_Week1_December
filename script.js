@@ -31,7 +31,8 @@ let data = [
         {name:"mams",age:21,profession:"admin"}
     ]
     let combinedArray=data.concat(data2);
-    console.log("Here is your concatenated array: " , combinedArray);
+    data=combinedArray;
+    console.log("Here is your concatenated array: " , data);
   }
   
   // 5. Average Age
